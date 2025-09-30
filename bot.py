@@ -25,7 +25,7 @@ FIX_LOGIN_URL = "https://www.fantasyfootballfix.com/signin/"
 FIX_ORIGIN = "https://www.fantasyfootballfix.com"
 TARGET_URL = "https://www.fantasyfootballfix.com/reveal/"
 TIMEZONE = zoneinfo.ZoneInfo("Asia/Singapore")
-REPORT_TIME = datetime.time(hour=23, minute=20, second=0, tzinfo=TIMEZONE)
+REPORT_TIME = datetime.time(hour=9, minute=15, second=0, tzinfo=TIMEZONE)
 
 # --- Helper Functions (unchanged) ---
 def escape_markdown(text: str) -> str:
